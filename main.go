@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"future-trading/marketdataservice/bootstraper"
-	"future-trading/marketdataservice/config"
-	"future-trading/marketdataservice/server"
+	"marketdataservice/bootstraper"
+	"marketdataservice/config"
+	"marketdataservice/server"
 	"os"
 )
 

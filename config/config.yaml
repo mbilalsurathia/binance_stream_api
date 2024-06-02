@@ -1,0 +1,15 @@
+name: "Future Trading Market Data Service"
+version: "0.0.1"
+mode: "release"
+host: "127.0.0.1"
+port: 8888
+logger:
+  logEnvironment: "local"
+  path: "./log/logrus.log"
+postgres:
+  User: postgres
+  Password: postgres
+  Host: 127.0.0.1
+  Port: 5432
+  Name: postgres
+  SslMode: disable
